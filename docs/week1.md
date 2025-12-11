@@ -8,7 +8,8 @@ This week focuses on planning the system deployment, choosing the server distrib
 
 ## 1. System Architecture Diagram
 
-Insert your diagram here (upload image to GitHub and link it).
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/914edf79-c4e6-43ab-9a64-92d8f3ebb6fe" />
+
 
 Example:
 ![System Architecture Diagram](images/week1/diagram.png)

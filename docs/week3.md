@@ -26,8 +26,6 @@ before running the commands my expected outcome for when i do in fact do this is
 
 ## 3. Expected Resource Profiles
 
-## 3. Expected Resource Profiles
-
 | Application        | Expected CPU Usage | Expected RAM Usage | Expected Disk Usage | Expected Network Usage | Notes |
 |--------------------|--------------------|--------------------|----------------------|-------------------------|-------|
 | stress-ng (CPU)    | Very High          | Low                | None                 | None                    | CPU cores will reach 100% load. |
@@ -35,4 +33,18 @@ before running the commands my expected outcome for when i do in fact do this is
 | fio                | Low–Medium         | Medium             | Very High            | None                    | Heavy read/write workloads dominate performance. |
 | iperf3             | Low                | Low                | None                 | Very High               | Network bandwidth will be saturated during tests. |
 | nginx              | Low–Medium         | Low                | Low                  | Medium                  | Resource usage increases under HTTP request load. |
+
+Monitoring Strategy
+
+This section outlines how I will measure performance for each application.
+The strategy ensures consistent and repeatable data collection.
+
+the tools ill use for monitoring are 
+top- live CPU,RAM and it loads up averages
+vmstat1- Cpu wait time
+free -h- memory pressure and swap usage
+df -h - disk space usage
+iperf3 - network throughput
+ping- latency and packet loss
+the tools mentioned here provide a complete view of system performance across CPU,RAM,disk and network subsystems
 

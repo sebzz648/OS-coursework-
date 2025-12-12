@@ -27,7 +27,7 @@ ss -tulnp — inspect open ports and services
 Testing approach
 I will evaluate system performance under different workload types.
 
-1. Baseline Measurements
+ **Baseline Measurements**
 
 Observe idle CPU, memory, and disk usage
 
@@ -53,7 +53,7 @@ Monitor with iostat.
 iperf3 -s    # server
 iperf3 -c <server-ip>    # client
 
-1.3 Data to Be Collected
+ **Data to Be Collected**
 
 The following metrics will be recorded during testing:
 
@@ -121,7 +121,7 @@ Commands:
 sudo apparmor_status
 sudo aa-enforce /etc/apparmor.d/*
 
-2.4 Automatic Security Updates
+** Automatic Security Updates**
 
 Enable unattended upgrades:
 
@@ -149,7 +149,7 @@ sudo adduser adminuser
 sudo usermod -aG sudo adminuser
 sudo visudo
 
-2.6 Network Security Controls
+ **Network Security Controls**
 
 Tasks:
 

@@ -9,3 +9,7 @@ configure ssh with key-based authentication
 <img width="218" height="67" alt="image" src="https://github.com/user-attachments/assets/aaadad91-fc11-493c-b39e-03154d2d53dd" />
 <img width="823" height="166" alt="image" src="https://github.com/user-attachments/assets/a13d7d2d-59ec-41ed-9f07-2dfa23ce5f66" />
 password authentication disabled
+
+PS
+All administrative configuration was performed via SSH from the workstation.
+The VirtualBox console was only used during initial troubleshooting.

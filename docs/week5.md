@@ -34,3 +34,15 @@ my configuration file
 
 <img width="729" height="138" alt="image" src="https://github.com/user-attachments/assets/20eef9f7-edb7-4477-a662-2101341cd28d" />
 
+ensuring my [sshd] is enabled
+
+<img width="449" height="84" alt="image" src="https://github.com/user-attachments/assets/5c54a097-9022-4796-ae19-38e3a687e6ea" />
+
+
+<img width="461" height="134" alt="image" src="https://github.com/user-attachments/assets/7b14dc17-dfcc-454b-a4bf-b12ee4ab9b51" />
+
+This shows prove my fail2ban is installed and is running
+
+<img width="416" height="170" alt="image" src="https://github.com/user-attachments/assets/e68a3332-e6f4-417d-a2c3-1db7d7197225" />
+
+status report of my fail2ban

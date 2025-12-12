@@ -57,3 +57,29 @@ Ubuntu Server VM uses two network adapters:
 - Used for SSH connections  
 
 ### Commands to verify network:
+
+<img width="855" height="361" alt="image" src="https://github.com/user-attachments/assets/8e48ffd1-6707-4f15-aa8e-7d7959c80365" />
+
+
+---
+
+## 5. System Specification Evidence
+
+Commands executed on the server:
+
+<img width="488" height="24" alt="image" src="https://github.com/user-attachments/assets/c1ae76f4-5b67-4283-8a02-b266a73c02cb" />
+
+### Memory information
+<img width="329" height="37" alt="image" src="https://github.com/user-attachments/assets/c7812922-e0b5-4b1b-a689-ef9a8b673592" />
+
+### Network interfaces
+<img width="298" height="66" alt="image" src="https://github.com/user-attachments/assets/ce8d52c8-10b9-40ae-973f-741cc34e0584" />
+
+## 6. Reflection for Week 1
+
+This week, I learned how to structure a dual-system architecture using a Windows workstation and a headless Ubuntu Server. I set up VirtualBox networking, identified the server distribution, and captured server specifications using CLI commands. This formed the foundation for security hardening and performance analysis in later weeks.
+
+---
+
+
+

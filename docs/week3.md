@@ -22,13 +22,17 @@ sudo apt update
 sudo apt install fio -y
 sudo apt install iperf3 -y
 sudo apt install nginx -y
-before running the commands my expected outcome for when i do in fact do this is | Application       | Expected CPU Usage | Expected RAM Usage | Expected Disk Usage | Expected Network Usage | Notes                                          |
-| ----------------- | ------------------ | ------------------ | ------------------- | ---------------------- | ---------------------------------------------- |
-| `stress-ng` (CPU) | Very High          | Low                | None                | None                   | CPU cores will run at 100% load.               |
-| `stress-ng` (RAM) | Medium             | Very High          | None                | None                   | High memory allocation may cause swapping.     |
-| `fio`             | Low-Medium         | Medium             | Very High           | None                   | Disk read/write throughput will dominate.      |
-| `iperf3`          | Low                | Low                | None                | Very High              | Network bandwidth will be saturated.           |
-| `nginx`           | Low–Medium         | Low                | Low                 | Medium                 | Load increases when HTTP traffic is generated. |
+before running the commands my expected outcome for when i do in fact do this is
 
+## 3. Expected Resource Profiles
 
+## 3. Expected Resource Profiles
+
+| Application        | Expected CPU Usage | Expected RAM Usage | Expected Disk Usage | Expected Network Usage | Notes |
+|--------------------|--------------------|--------------------|----------------------|-------------------------|-------|
+| stress-ng (CPU)    | Very High          | Low                | None                 | None                    | CPU cores will reach 100% load. |
+| stress-ng (RAM)    | Medium             | Very High          | None                 | None                    | High memory allocation may trigger swapping. |
+| fio                | Low–Medium         | Medium             | Very High            | None                    | Heavy read/write workloads dominate performance. |
+| iperf3             | Low                | Low                | None                 | Very High               | Network bandwidth will be saturated during tests. |
+| nginx              | Low–Medium         | Low                | Low                  | Medium                  | Resource usage increases under HTTP request load. |
 

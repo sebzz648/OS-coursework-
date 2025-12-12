@@ -14,6 +14,7 @@ These tools were chosen because they provide predictable, repeatable, and measur
 | Disk I/O | fio | Industry standard disk benchmark |
 | Network | iperf3 | Measures upload/download throughput |
 | Server | nginx | Lightweight web server for load testing |
+
 By selecting these tools, I ensured that each major subsystem (CPU, RAM, disk, network, server processes) can be tested in a way that produces meaningful data
 
 After i went into my server in Ubuntu and indicidually wrote these commands to install these tools the commands were:
